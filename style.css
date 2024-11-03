@@ -1,0 +1,330 @@
+body{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* header section start */
+.header{
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    height: 10vh;
+    padding: 0 8vw;
+    align-items: center; 
+}
+/* <!-- header section end --> */
+
+
+/* <!-- main section start --> */
+.main-section{
+    background-color: #18Bc9c;
+    color:#fff;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 48px;
+}
+/* <!-- main section end --> */
+
+
+/* <!-- updates section start --> */
+.update p{
+    text-align: center;
+    padding-top: 20px;
+    color: #999;
+}
+
+.email{
+     text-align: center;
+     padding-top: 10px;
+     /* width: 1000px; */
+     box-sizing: border-box;
+     vertical-align: top;
+}
+
+input.email{
+    font-size: 12px;
+    border: 1px solid #ABB0B2;
+    font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+    border-radius: 3px;
+    color: #343434;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 0px 0.4em;
+    display: inline-block;
+    margin: 0;
+    width: 350px;
+    vertical-align: top;
+    text-align: left;
+}
+
+input {
+    height: 3em !important;
+    /* padding: 10px; */
+}
+
+.btn-info {
+    background-color: #18Bc9c;
+    border: none;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    background-image: none;
+    white-space: nowrap;
+    user-select: none;
+}
+
+
+
+.btn-sm{
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+
+/* <!-- updates section end --> */
+
+
+
+/* <!-- text section start --> */
+.text{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+    color: #999;
+   
+}
+/* <!-- text section end --> */
+
+/* <!--First card section start --> */
+
+.card{
+    height: 50vh;
+    border: 2px solid;
+    width: 17vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color:white;
+}
+    
+.card img{
+    border-radius: 50%;
+    padding-top: 5px;
+}
+
+/* .card p{
+    font-weight: 700;
+} */
+
+ .card-text p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    /* justify-content: center; */
+    padding:4vh 8vw;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #f7f7f7;
+}
+
+.card:hover{
+    background-color: #18bc9c;
+}
+ /* <!-- First card section end --> */
+
+ /* <!-- journey section start --> */
+.journey{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+    color: #999;
+}
+/* <!-- journey section end --> */
+
+
+/* <!-- journey-card section start --> */
+.journey-card{
+    height: 50vh;
+    border: 2px solid;
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+}
+
+.journey-card img{
+    border-radius: 50%;
+    padding-top: 5px;
+}
+
+.journey-text p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.journey-container{
+    display: flex;
+    justify-content: center;
+    padding:0 8vw;
+    flex-wrap: wrap;
+    background-color: #f7f7f7;
+    
+}
+
+.journey-card:hover{
+    background-color: #18bc9c;
+}
+/* <!-- journey-card section end --> */
+    
+/* <!-- network section start --> */
+  .network{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+    color: #999;
+  }
+/* <!-- network section end --> */
+
+/* <!-- network-card section start --> */
+.network-card{
+    height: 50vh;
+    border: 2px solid;
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+}
+
+.network-card img{
+    border-radius: 50%;
+    padding-top: 5px;
+}
+
+.network-text p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.network-container{
+    display: flex;
+    justify-content: center;
+    padding:0 8vw;
+    flex-wrap: wrap;
+}
+
+.network-card:hover{
+    background-color: #18bc9c;
+}
+/* <!-- network-card section end --> */
+
+/* <!-- footer section start --> */
+
+.footer{
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+    height: 30vh;
+    width: 90vw;
+    padding: 0 8vw;
+    align-items: center; 
+}
+/* <!-- subscribe start --> */
+.Subscribe{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.Subscribe a{
+    text-decoration: none;
+}
+
+
+.Subscribe h1{
+    text-align: center;
+}
+/* <!-- subscribe start --> */
+
+/* <!-- about us start --> */
+.about h1{
+    text-align: center;
+}
+
+.about{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+.about a{
+    text-decoration: none;
+}
+/* <!-- about us end --> */
+
+/* <!-- contact us start --> */
+.contact h1{
+    text-align: center;
+}
+
+.contact{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.contact a{
+    text-decoration: none;
+}
+/* <!-- contact us start --> */
+
+
+/* <!-- footer section end --> */
+
+
+
+
+ 
+
+/*
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*
+/* 
+
+colors:-
+header background : #2C3E50
+hero background : #18BC9C
+main background color : #F7F7F7
+
+*/
+
